@@ -12,7 +12,7 @@ Created script in vim to [analyze-logs](Logs/analyze-logs.sh)
 - Add formatting to echo lines with -e and \n
 - Add variables for absolute paths to the logs files
 - Add array variable for "ERROR, FATAL, and CRITICAL"
-- Add for loop
+- Add multiple for loops to make code more flexible
 
 
 Give execute perms:  

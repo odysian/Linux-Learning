@@ -32,7 +32,7 @@ for LOG_FILE in $LOG_FILES; do
         echo $ERROR_COUNT >> "$REPORT_FILE"
 
         if [ "$ERROR_COUNT" -gt 10 ]; then
-            echo -e "\n ⚠️ Action Required: too many $PATTERN issues in log file $LOG_FILE"
+            echo -e "\n ⚠️  Action Required: too many $PATTERN issues in log file $LOG_FILE"
         fi
     done
 done

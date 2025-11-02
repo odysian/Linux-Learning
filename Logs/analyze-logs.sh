@@ -15,11 +15,13 @@ echo "$LOG_FILES"
 
 for LOG_FILE in $LOG_FILES; do
 
-    for PATTERN in $ERROR_PATTERNS; do
+    for PATTERN in ${ERROR_PATTERNS[@]}; do
+
         echo -e "\nSearching $PATTERN logs in $LOG_FILE file"
         grep "$PATTERN" "$LOG_FILE"
 
         echo -e "\nNumber of $PATTERN logs found in $LOG_FILE" 
         grep -c "$PATTERN" "$LOG_FILE"
+
     done
 done

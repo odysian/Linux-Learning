@@ -13,6 +13,7 @@ Created script in vim to [analyze-logs](Logs/analyze-logs.sh)
 - Add variables for absolute paths to the logs files
 - Add array variable for "ERROR, FATAL, and CRITICAL"
 - Add multiple for loops to make code more flexible
+- Fix array loop using `${ERROR_PATTERNS[@]}`
 
 
 Give execute perms:  

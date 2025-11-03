@@ -1,4 +1,4 @@
-# Linux-Learning
+# Linux-CloudOps-Learning
 ### Bash Scripting
 
 Find files in cd with .log that have been modified in past 24hrs:  

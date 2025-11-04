@@ -2,6 +2,7 @@
 
 - Spent too much time having issues with virtualbox and guest additions in both xubuntu and fedora.
 - Installed VMware Workstation Pro and fresh xubuntu iso
+## Scroll Wheel Fix
 - Updated and fixed issue with scroll wheel not working when mouse is moving
     - `sudo apt-get install xserver-xorg-input-evdev-dev`
     - `cd /usr/share/X11/xorg.conf.d/`
